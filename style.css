@@ -95,16 +95,37 @@ span{
 .container{
     position: relative;
     display: inline-block;
+    max-width: 100%;
 }
 #I-do{
     width : 100%;
-    background-color: #2d2e2d;
-    background-image: url("photos/laptob.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+                rgba(0, 0, 0, 0.8)),
+            url("photos/laptob.png");
     background-size: cover;
+    color : #ffffff;
+    display : flex ; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    font-weight: bold;
+    line-height: 23px ;
+
 }
-#Articales{
+#Articales {
     width: 100%;
-    display : flex;
+    display: flex;
     justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.Article {
+    display: flex;
+    flex-direction: column;
+}
+*{
+    outline: solid 2px red ;
 }
 /* tomorrow I will modify the sing up in weather app adding disabled , new Data file , and mouseover , mouseenter  */
