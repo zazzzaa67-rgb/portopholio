@@ -99,8 +99,13 @@ span{
 #I-do{
     width : 100%;
     background-color: #2d2e2d;
-    background-image: url("photos/);
+    background-image: url("photos/laptob.png");
+    background-size: cover;
 }
-/* complete the portfolio and modify sign up in weather app  */
-/* add sign up for weather app */
-/* add the nav button for portfolio*/
+#Articales{
+    width: 100%;
+    display : flex;
+    justify-content: space-around;
+
+}
+/* tomorrow I will modify the sing up in weather app adding disabled , new Data file , and mouseover , mouseenter  */
