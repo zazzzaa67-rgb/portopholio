@@ -10,7 +10,7 @@ showbtn.addEventListener("click" , function(){
 links.forEach(function(link) {
     link.addEventListener("click", function () {
         navigation.style.display = "none";
-        main.style.display = "flex";
-        showbtn.style.display = "flex";
+        showbtn.style.display = "block"
+        main.style.display = "block";
     });
 });
